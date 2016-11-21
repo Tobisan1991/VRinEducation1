@@ -101,6 +101,7 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+    <Compile Include="Assets\VREyeRaycaster.cs" />
     <Compile Include="Assets\gvr-unity-sdk-master\GoogleVR\DemoScenes\ControllerDemo\ControllerDebugInfo.cs" />
     <Compile Include="Assets\gvr-unity-sdk-master\GoogleVR\DemoScenes\ControllerDemo\ControllerDemoManager.cs" />
     <Compile Include="Assets\gvr-unity-sdk-master\GoogleVR\DemoScenes\HeadsetDemo\Teleport.cs" />
