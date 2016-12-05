@@ -1,19 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
-using System.Collections.Generic;
 
 public class VRTextScript : MonoBehaviour
 {
     
-    private bool gazedAt;
     public Text InfoBox;
     public Text winBox;
-
-
-
-
-
+    
     // Use this for initialization
     void Start()
     {
@@ -28,13 +21,11 @@ public class VRTextScript : MonoBehaviour
 
     public void PointerIn()
     {
-        gazedAt = true;
         InfoBox.text = winBox.text;
 
     }
     public void PointerOut()
     {
-        gazedAt = false;
 
         InfoBox.text = "";
 

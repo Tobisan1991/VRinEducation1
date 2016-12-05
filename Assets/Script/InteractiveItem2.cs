@@ -12,7 +12,6 @@ public class InteractiveItem2 : MonoBehaviour, IPointerEnterHandler, IPointerExi
     public bool isEntered = false;
     public Selectable _selectable;
     public float GazeActivationTime = 3f;
-    public Text winText;
 
     BaseInputModule input;
 
@@ -23,7 +22,6 @@ public class InteractiveItem2 : MonoBehaviour, IPointerEnterHandler, IPointerExi
     {
         input = FindObjectOfType<BaseInputModule>();
         _selectable = GetComponent<Selectable>();
-     //   winText.text = "";
     }
 
     void Update()
@@ -60,7 +58,6 @@ public class InteractiveItem2 : MonoBehaviour, IPointerEnterHandler, IPointerExi
         isEntered = false;
         if (ReticlePointer.Instance != null)
         {
-        //    winText.text = "";
             timeElapsed = 0;
         }
     }
