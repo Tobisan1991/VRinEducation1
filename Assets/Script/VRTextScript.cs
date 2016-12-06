@@ -4,10 +4,12 @@ using UnityEngine.UI;
 public class VRTextScript : MonoBehaviour
 {
     
+	//Variable for the Text Gui
     public Text InfoBox;
     public Text winBox;
     
     // Use this for initialization
+	//by default there should no text be shown, so that InfoBos = ""
     void Start()
     {
         InfoBox.text = "";
@@ -19,11 +21,13 @@ public class VRTextScript : MonoBehaviour
 
     }
 
+	//if the pointer shows on the Object, show the Text of winBox
     public void PointerIn()
     {
         InfoBox.text = winBox.text;
 
     }
+	//if out show again a empty InfoBox
     public void PointerOut()
     {
 
