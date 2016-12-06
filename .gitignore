@@ -7,6 +7,14 @@
 /[Ll]ibrary/
 sysinfo.txt
 *.stackdump
+### Unity ###
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/Assets/AssetStoreTools*
  
 # ============================================= #
 # Visual Studio / MonoDevelop / Rider generated #
