@@ -8,9 +8,12 @@ public class MoveCamera : MonoBehaviour
     //  bool isLooking = false;
     public float countdown = 50f;
 
+	//updade is called once per frame
   public void update()
     {
+		//Time delta is the configured time
         timeLeft -= Time.deltaTime;
+		//if time is over the new scence "szene2" should be loaded
         if (timeLeft < 0)
         {
             //            Application.LoadLevel("gameOver");
@@ -41,7 +44,10 @@ public class MoveCamera : MonoBehaviour
             SceneManager.LoadScene("szene1");
     }
 
-   */ public void AbortScene()
+
+   */ 
+	//countdown for the timer is set to 5
+	public void AbortScene()
     {
         countdown = 5;
     }
