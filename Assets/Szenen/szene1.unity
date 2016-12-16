@@ -36,20 +36,20 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.347479, g: 0.41471276, b: 0.49741793, a: 1}
+  m_Sun: {fileID: 255441111}
+  m_IndirectSpecularColor: {r: 0.3471993, g: 0.41464186, b: 0.49858463, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 7
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
     m_IndirectOutputScale: 1
     m_AlbedoBoost: 1
     m_TemporalCoherenceThreshold: 1
-    m_EnvironmentLightingMode: 0
+    m_EnvironmentLightingMode: 1
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
@@ -70,8 +70,9 @@ LightmapSettings:
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
-    m_ReflectionCompression: 2
-  m_LightingDataAsset: {fileID: 0}
+    m_ReflectionCompression: 0
+  m_LightingDataAsset: {fileID: 112000001, guid: 8b8e4068d5aa9304fa727dfc4b8c2d8e,
+    type: 2}
   m_RuntimeCPUUsage: 25
 --- !u!196 &4
 NavMeshSettings:
@@ -2825,7 +2826,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 255441110}
   m_LocalRotation: {x: -0.5591754, y: -0.03303794, z: -0.79109013, w: -0.24578011}
-  m_LocalPosition: {x: 27.08, y: 66.66, z: -39.59}
+  m_LocalPosition: {x: 25.44, y: 64.27, z: -47.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 12.806001, y: 67.778, z: -205.75699}
   m_Children: []
@@ -4989,7 +4990,7 @@ GameObject:
   - 223: {fileID: 603450410}
   - 114: {fileID: 603450409}
   - 114: {fileID: 603450408}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6241,7 +6242,7 @@ GameObject:
   - 224: {fileID: 710714152}
   - 222: {fileID: 710714154}
   - 114: {fileID: 710714153}
-  m_Layer: 5
+  m_Layer: 2
   m_Name: StatueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12823,7 +12824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EventMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967259
 --- !u!20 &1440211330
 Camera:
   m_ObjectHideFlags: 0
@@ -13906,7 +13907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 360588687a688af469a2754756a364e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: szene2
+  nextScene: szene1
   isEntered: 0
   _selectable: {fileID: 1537617696}
   GazeActivationTime: 3

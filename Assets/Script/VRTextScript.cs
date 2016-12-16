@@ -19,7 +19,6 @@ public class VRTextScript : MonoBehaviour
         panel.gameObject.SetActive(false);
     }
 
-    //if the pointer shows on the Object, show the Text of winBox
     public void PointerIn()
     {
         InfoBox.text = winBox.text;
