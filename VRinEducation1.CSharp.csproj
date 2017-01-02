@@ -114,9 +114,9 @@
     <Compile Include="Assets\GoogleVR\Scripts\UI\IGvrGazeResponder.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
-    <Compile Include="Assets\Script\InteractiveItem2.cs" />
-    <Compile Include="Assets\Script\MoveCamera.cs" />
     <Compile Include="Assets\Script\ReticlePointer.cs" />
+    <Compile Include="Assets\Script\SzenenWechsel.cs" />
+    <Compile Include="Assets\Script\Teleport.cs" />
     <Compile Include="Assets\Script\VRSlider.cs" />
     <Compile Include="Assets\Script\VRTextScript.cs" />
   </ItemGroup>
