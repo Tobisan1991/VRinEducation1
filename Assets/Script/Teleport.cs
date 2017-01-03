@@ -11,6 +11,7 @@ public class Teleport : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public GameObject objToTp;
     public GameObject tpLoc;
+    public GameObject BackPort;
     public bool isEntered = false;
     public Selectable _selectable;
     public float GazeActivationTime = 3;
@@ -77,6 +78,7 @@ public class Teleport : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     void SetEnteredTrue()
     {
         objToTp.transform.position = tpLoc.transform.position;
+        BackPort.SetActive(true);
     }
 
 
