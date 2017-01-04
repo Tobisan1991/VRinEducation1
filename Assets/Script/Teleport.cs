@@ -11,6 +11,7 @@ public class Teleport : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public GameObject objToTp;
     public GameObject tpLoc;
+    public GameObject PortStein;
     public GameObject BackPort;
     public bool isEntered = false;
     public Selectable _selectable;
@@ -25,6 +26,8 @@ public class Teleport : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         input = FindObjectOfType<BaseInputModule>();
         _selectable = GetComponent<Selectable>();
+        PortStein.SetActive(true);
+        BackPort.SetActive(false);
     }
 
     void Update()
@@ -77,6 +80,7 @@ public class Teleport : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     void SetEnteredTrue()
     {
+        PortStein.SetActive(false);
         objToTp.transform.position = tpLoc.transform.position;
         BackPort.SetActive(true);
     }
