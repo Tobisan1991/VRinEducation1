@@ -9,3 +9,7 @@ EditorBuildSettings:
     path: Assets/Szenen/szene1.unity
   - enabled: 1
     path: Assets/Szenen/MuratSzene.unity
+  - enabled: 1
+    path: Assets/Szenen/Hauptmenue.unity
+  - enabled: 1
+    path: Assets/Szenen/AranSzene.unity

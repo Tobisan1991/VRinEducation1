@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 48052385}
-  m_IndirectSpecularColor: {r: 0.34747842, g: 0.41474614, b: 0.49747753, a: 1}
+  m_IndirectSpecularColor: {r: 0.347479, g: 0.41471276, b: 0.49741793, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -417,8 +417,9 @@ GameObject:
   - 222: {fileID: 207620983}
   - 114: {fileID: 207620982}
   - 114: {fileID: 207620981}
+  - 114: {fileID: 207620984}
   m_Layer: 0
-  m_Name: Anatomie (1)
+  m_Name: ArchitekturButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -517,6 +518,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 207620979}
+--- !u!114 &207620984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 207620979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 360588687a688af469a2754756a364e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: szene1
+  isEntered: 0
+  _selectable: {fileID: 207620981}
+  GazeActivationTime: 3
 --- !u!4 &246501483 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400008, guid: b8b03d395f5734e98af91ccf44f9bf47, type: 2}
@@ -1575,6 +1591,7 @@ GameObject:
   - 222: {fileID: 1445180658}
   - 114: {fileID: 1445180657}
   - 114: {fileID: 1445180656}
+  - 114: {fileID: 1445180659}
   m_Layer: 0
   m_Name: Anatomie
   m_TagString: Untagged
@@ -1675,6 +1692,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1445180654}
+--- !u!114 &1445180659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1445180654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 360588687a688af469a2754756a364e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: AranSzene
+  isEntered: 0
+  _selectable: {fileID: 1445180656}
+  GazeActivationTime: 3
 --- !u!224 &1544245770 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 22400008, guid: b6a1cf4e3eeaf9a4ca38bf8acb910a6d,
@@ -1872,7 +1904,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1613149592}
   m_LocalRotation: {x: -0, y: 0.5000001, z: -0, w: 0.8660254}
-  m_LocalPosition: {x: -503, y: -181, z: 167}
+  m_LocalPosition: {x: -118, y: -30, z: -67}
   m_LocalScale: {x: 2.475723, y: 2.4757228, z: 2.4757228}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -1930,7 +1962,7 @@ ParticleSystem:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1613149592}
-  serializedVersion: 2
+  serializedVersion: 4
   lengthInSec: 5
   startDelay:
     scalar: 0
@@ -1968,12 +2000,13 @@ ParticleSystem:
       m_RotationOrder: 4
     minMaxState: 0
   speed: 1
-  randomSeed: 0
   looping: 1
   prewarm: 1
   playOnAwake: 1
   moveWithTransform: 1
+  autoRandomSeed: 1
   scalingMode: 2
+  randomSeed: 439135779
   InitialModule:
     serializedVersion: 2
     enabled: 1
