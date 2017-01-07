@@ -114,23 +114,23 @@
     <Compile Include="Assets\GoogleVR\Scripts\UI\IGvrGazeResponder.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
+    <Compile Include="Assets\Script\PanelSwitch.cs" />
     <Compile Include="Assets\Script\ReticlePointer.cs" />
+    <Compile Include="Assets\Script\Scripts\ActiveStateToggler.cs" />
+    <Compile Include="Assets\Script\Scripts\ApplicationManager.cs" />
+    <Compile Include="Assets\Script\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\Script\Scripts\DragMe.cs" />
+    <Compile Include="Assets\Script\Scripts\DragPanel.cs" />
+    <Compile Include="Assets\Script\Scripts\DropMe.cs" />
+    <Compile Include="Assets\Script\Scripts\PanelManager.cs" />
+    <Compile Include="Assets\Script\Scripts\ResizePanel.cs" />
+    <Compile Include="Assets\Script\Scripts\ScrollDetailTexture.cs" />
+    <Compile Include="Assets\Script\Scripts\ShowSliderValue.cs" />
+    <Compile Include="Assets\Script\Scripts\TiltWindow.cs" />
     <Compile Include="Assets\Script\SzenenWechsel.cs" />
     <Compile Include="Assets\Script\Teleport.cs" />
     <Compile Include="Assets\Script\VRSlider.cs" />
     <Compile Include="Assets\Script\VRTextScript.cs" />
-    <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
-    <Compile Include="Assets\Scripts\ApplicationManager.cs" />
-    <Compile Include="Assets\Scripts\ChangeColor.cs" />
-    <Compile Include="Assets\Scripts\DragMe.cs" />
-    <Compile Include="Assets\Scripts\DragPanel.cs" />
-    <Compile Include="Assets\Scripts\DropMe.cs" />
-    <Compile Include="Assets\Scripts\PanelManager.cs" />
-    <Compile Include="Assets\Scripts\PanelSwitch.cs" />
-    <Compile Include="Assets\Scripts\ResizePanel.cs" />
-    <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
-    <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
-    <Compile Include="Assets\Scripts\TiltWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
@@ -142,6 +142,7 @@
     <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
     <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Skyboxes\ReadMe.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
@@ -149,7 +150,6 @@
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
     <None Include="Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
-    <None Include="Assets\Wispy Sky\ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
