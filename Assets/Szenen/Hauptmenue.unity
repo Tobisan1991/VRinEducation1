@@ -1063,6 +1063,7 @@ GameObject:
   - 222: {fileID: 915703170}
   - 114: {fileID: 915703169}
   - 114: {fileID: 915703168}
+  - 114: {fileID: 915703171}
   m_Layer: 0
   m_Name: Anatomie (3)
   m_TagString: Untagged
@@ -1163,6 +1164,22 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 915703166}
+--- !u!114 &915703171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 915703166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuizPanel: {fileID: 1141511657}
+  HauptPanel: {fileID: 1110008961}
+  isEntered: 0
+  _selectable: {fileID: 915703168}
+  GazeActivationTime: 3
 --- !u!1001 &1048966536
 Prefab:
   m_ObjectHideFlags: 0
@@ -3973,6 +3990,7 @@ GameObject:
   - 222: {fileID: 1831331602}
   - 114: {fileID: 1831331601}
   - 114: {fileID: 1831331600}
+  - 114: {fileID: 1831331603}
   m_Layer: 0
   m_Name: BackButton
   m_TagString: Untagged
@@ -4073,6 +4091,22 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1831331598}
+--- !u!114 &1831331603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1831331598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuizPanel: {fileID: 1110008961}
+  HauptPanel: {fileID: 1141511657}
+  isEntered: 0
+  _selectable: {fileID: 1831331600}
+  GazeActivationTime: 3
 --- !u!1001 &1832100305
 Prefab:
   m_ObjectHideFlags: 0
