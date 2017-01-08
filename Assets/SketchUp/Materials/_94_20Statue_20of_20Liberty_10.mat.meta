@@ -3,8 +3,13 @@ fileFormatVersion: 2
 guid: d88f0fc43489ec3458b2dd46706b1f9d
 timeCreated: 1483362421
 =======
+<<<<<<< Updated upstream
 guid: 191d89b60ce094d209da82faea435919
 timeCreated: 1482333128
+=======
+guid: 2b31822484290413db720f9bf877fd36
+timeCreated: 1482196620
+>>>>>>> Stashed changes
 >>>>>>> Stashed changes
 licenseType: Free
 NativeFormatImporter:

@@ -4,9 +4,15 @@ guid: 20e4b771a9d77704a9be2665650ea100
 folderAsset: yes
 timeCreated: 1483362420
 =======
+<<<<<<< Updated upstream
 guid: 74a27a0d72a8d44e2905fc825de9ff30
 folderAsset: yes
 timeCreated: 1482333127
+=======
+guid: 8ce99988e0e8a49f5a1babe28b598892
+folderAsset: yes
+timeCreated: 1482196619
+>>>>>>> Stashed changes
 >>>>>>> Stashed changes
 licenseType: Free
 DefaultImporter:
