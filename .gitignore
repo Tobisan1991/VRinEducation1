@@ -4,7 +4,6 @@
 Temp/
 Obj/
 UnityGenerated/
-Library/
 Library/*
 Library/metadata/
 Assets/AssetStoreTools*
@@ -35,8 +34,3 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
-Assets/Materials.meta
-
-*.meta
-
-*.meta
