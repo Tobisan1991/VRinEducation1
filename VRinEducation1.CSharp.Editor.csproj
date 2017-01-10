@@ -116,6 +116,15 @@
     <Compile Include="Assets\GoogleVR\Legacy\Editor\GvrMenu.cs" />
     <Compile Include="Assets\GoogleVR\Legacy\Editor\GvrViewerEditor.cs" />
     <Compile Include="Assets\GoogleVR\Legacy\Editor\StereoControllerEditor.cs" />
+    <Compile Include="Assets\MaterialUI\Editor\CheckboxConfigEditor.cs" />
+    <Compile Include="Assets\MaterialUI\Editor\EZAnimEditor.cs" />
+    <Compile Include="Assets\MaterialUI\Editor\MaterialUIEditorTools.cs" />
+    <Compile Include="Assets\MaterialUI\Editor\RectTransformSnapEditor.cs" />
+    <Compile Include="Assets\MaterialUI\Editor\RippleConfigEditor.cs" />
+    <Compile Include="Assets\MaterialUI\Editor\ScreenConfigEditor.cs" />
+    <Compile Include="Assets\MaterialUI\Editor\ShadowGenEditor.cs" />
+    <Compile Include="Assets\MaterialUI\Editor\SnapButtonToTextEditor.cs" />
+    <Compile Include="Assets\MaterialUI\Editor\TexturePostProcessor.cs" />
     <Compile Include="Assets\Script\Scripts\Editor\AlphaNumericSort.cs" />
     <Compile Include="Assets\Script\Scripts\Editor\GUIHierarchy.cs" />
   </ItemGroup>
