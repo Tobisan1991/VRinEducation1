@@ -7,6 +7,8 @@ UnityGenerated/
 Library/*
 Library/metadata/
 Assets/AssetStoreTools*
+VRinEducation1.CSharp*
+ProjectSettings/*
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
