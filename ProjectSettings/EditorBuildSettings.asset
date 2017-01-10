@@ -12,6 +12,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Szenen/szene1.unity
   - enabled: 1
-    path: Assets/Szenen/RicoSzene.unity
+    path: Assets/Szenen/MaschinenbauSzene.unity
   - enabled: 0
     path: Assets/Szenen/MuratSzene.unity

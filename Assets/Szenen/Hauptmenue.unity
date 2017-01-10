@@ -2147,7 +2147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 360588687a688af469a2754756a364e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: RicoSzene
+  nextScene: MaschinenbauSzene
   isEntered: 0
   _selectable: {fileID: 1604683398}
   GazeActivationTime: 3

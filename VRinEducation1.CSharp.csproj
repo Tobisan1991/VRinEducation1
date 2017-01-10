@@ -114,6 +114,7 @@
     <Compile Include="Assets\GoogleVR\Scripts\UI\IGvrGazeResponder.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
+    <Compile Include="Assets\Script\MaschinenbauPanelSwitch.cs" />
     <Compile Include="Assets\Script\PanelSwitch.cs" />
     <Compile Include="Assets\Script\PlayAudioOnce.cs" />
     <Compile Include="Assets\Script\ReticlePointer.cs" />
