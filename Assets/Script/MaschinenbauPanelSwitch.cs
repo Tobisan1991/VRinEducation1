@@ -25,8 +25,8 @@ public class MaschinenbauPanelSwitch : MonoBehaviour, IPointerEnterHandler, IPoi
     {
         input = FindObjectOfType<BaseInputModule>();
         _selectable = GetComponent<Selectable>();
-        dummyPanel1.SetActive(true);
-        dummyPanel2.SetActive(true);
+        dummyPanel1.SetActive(false);
+        dummyPanel2.SetActive(false);
         AktiverPanel.SetActive(false);
     }
 

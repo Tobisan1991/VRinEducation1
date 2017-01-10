@@ -2007,7 +2007,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100030, guid: 8a3c5c4136bbd43f895e2f2913936632, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 8a3c5c4136bbd43f895e2f2913936632, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2799,7 +2799,6 @@ GameObject:
   - 222: {fileID: 128224256}
   - 114: {fileID: 128224255}
   - 114: {fileID: 128224254}
-  - 114: {fileID: 128224253}
   - 114: {fileID: 128224257}
   m_Layer: 2
   m_Name: DescrHerz
@@ -2827,22 +2826,6 @@ RectTransform:
   m_AnchoredPosition: {x: -680, y: 122.8}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &128224253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 128224251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  QuizPanel: {fileID: 1865535309}
-  HauptPanel: {fileID: 38844507}
-  isEntered: 0
-  _selectable: {fileID: 128224254}
-  GazeActivationTime: 3
 --- !u!114 &128224254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20376,7 +20359,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100032, guid: ce49f6df8a6ebaf4287f2e258fe600d8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ce49f6df8a6ebaf4287f2e258fe600d8, type: 3}

@@ -7,8 +7,6 @@ UnityGenerated/
 Library/*
 Library/metadata/
 Assets/AssetStoreTools*
-VRinEducation1.CSharp*
-ProjectSettings/*
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
@@ -35,12 +33,3 @@ ExportedObj/
 Icon?
 ehthumbs.db
 Thumbs.db
-
-
-Assets/11_18_13_EngineV6Mechanics 1.fbx
-
-*.meta
-
-*.mat
-
-*.png
