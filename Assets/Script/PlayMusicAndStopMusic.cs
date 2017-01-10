@@ -9,8 +9,7 @@ using System.Collections.Generic;
 
 public class PlayMusicAndStopMusic : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
-    public bool isRunnuing = false;
-    public AudioSource SoundFile;
+    public AudioSource SoundFile1;
     public bool isEntered = false;
     public Selectable _selectable;
     public float GazeActivationTime = 3;
@@ -19,9 +18,8 @@ public class PlayMusicAndStopMusic : MonoBehaviour, IPointerEnterHandler, IPoint
 
     float timeElapsed;
 
-
     void Start()
-    {
+    { 
         input = FindObjectOfType<BaseInputModule>();
         _selectable = GetComponent<Selectable>();
     }
@@ -77,12 +75,15 @@ public class PlayMusicAndStopMusic : MonoBehaviour, IPointerEnterHandler, IPoint
     void SetEnteredTrue()
     {
 
-        if(SoundFile.isPlaying)
+        if(SoundFile1.isPlaying)
         {
-            SoundFile.Pause();
+            AudioSource[] audios = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+            foreach (AudioSource aud in audios) aud.Stop();
         }
-        else { 
-        SoundFile.Play();
+        else {
+            AudioSource[] audios = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+            foreach (AudioSource aud in audios) aud.Stop();
+            SoundFile1.Play();
         }
 
     }
