@@ -117,6 +117,7 @@
     <Compile Include="Assets\Script\MaschinenbauPanelSwitch.cs" />
     <Compile Include="Assets\Script\PanelSwitch.cs" />
     <Compile Include="Assets\Script\PlayAudioOnce.cs" />
+    <Compile Include="Assets\Script\PlayMusicAndStopMusic.cs" />
     <Compile Include="Assets\Script\ReticlePointer.cs" />
     <Compile Include="Assets\Script\RotateScript.cs" />
     <Compile Include="Assets\Script\Scripts\ActiveStateToggler.cs" />
