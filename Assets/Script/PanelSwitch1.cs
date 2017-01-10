@@ -7,9 +7,13 @@ using System.Collections.Generic;
 
 [RequireComponent(typeof(Selectable))]
 
-public class PlayMusicAndStopMusic : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
+public class PanelSwitch1 : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
-    public AudioSource SoundFile1;
+    public GameObject MainPanel;
+    public GameObject Weg1;
+    public GameObject Weg2;
+    public GameObject Weg3;
+    public GameObject Weg4;
     public bool isEntered = false;
     public Selectable _selectable;
     public float GazeActivationTime = 3;
@@ -18,10 +22,16 @@ public class PlayMusicAndStopMusic : MonoBehaviour, IPointerEnterHandler, IPoint
 
     float timeElapsed;
 
+
     void Start()
-    { 
+    {
         input = FindObjectOfType<BaseInputModule>();
         _selectable = GetComponent<Selectable>();
+        MainPanel.SetActive(true);
+        Weg1.SetActive(false);
+        Weg2.SetActive(false);
+        Weg3.SetActive(false);
+        Weg4.SetActive(false);
     }
 
     void Update()
@@ -74,18 +84,11 @@ public class PlayMusicAndStopMusic : MonoBehaviour, IPointerEnterHandler, IPoint
 
     void SetEnteredTrue()
     {
-
-        if(SoundFile1.isPlaying)
-        {
-            AudioSource[] audios = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
-            foreach (AudioSource aud in audios) aud.Pause();
-        }
-        else {
-            AudioSource[] audios = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
-            foreach (AudioSource aud in audios) aud.Stop();
-            SoundFile1.Play();
-        }
-
+        MainPanel.SetActive(true);
+        Weg1.SetActive(false);
+        Weg2.SetActive(false);
+        Weg3.SetActive(false);
+        Weg4.SetActive(false);
     }
 
 

@@ -2800,8 +2800,6 @@ GameObject:
   - 114: {fileID: 128224255}
   - 114: {fileID: 128224254}
   - 114: {fileID: 128224253}
-  - 114: {fileID: 128224259}
-  - 114: {fileID: 128224258}
   - 114: {fileID: 128224257}
   m_Layer: 2
   m_Name: DescrHerz
@@ -2927,45 +2925,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 128224251}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
+  m_Script: {fileID: 11500000, guid: ece8667ca22fd194aa91389c30c2c652, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  QuizPanel: {fileID: 1865535309}
-  HauptPanel: {fileID: 120027092}
+  MainPanel: {fileID: 1865535309}
+  Weg1: {fileID: 38844507}
+  Weg2: {fileID: 1538749346}
+  Weg3: {fileID: 871130397}
+  Weg4: {fileID: 120027092}
   isEntered: 0
-  _selectable: {fileID: 128224254}
-  GazeActivationTime: 3
---- !u!114 &128224258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 128224251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  QuizPanel: {fileID: 1865535309}
-  HauptPanel: {fileID: 1538749346}
-  isEntered: 0
-  _selectable: {fileID: 128224254}
-  GazeActivationTime: 3
---- !u!114 &128224259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 128224251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  QuizPanel: {fileID: 1865535309}
-  HauptPanel: {fileID: 871130397}
-  isEntered: 0
-  _selectable: {fileID: 128224254}
+  _selectable: {fileID: 1375532943}
   GazeActivationTime: 3
 --- !u!1 &128927297
 GameObject:
@@ -22332,11 +22301,7 @@ GameObject:
   - 222: {fileID: 1375532945}
   - 114: {fileID: 1375532944}
   - 114: {fileID: 1375532943}
-  - 114: {fileID: 1375532946}
-  - 114: {fileID: 1375532950}
-  - 114: {fileID: 1375532949}
-  - 114: {fileID: 1375532948}
-  - 114: {fileID: 1375532947}
+  - 114: {fileID: 1375532951}
   m_Layer: 2
   m_Name: OverviewButton
   m_TagString: Untagged
@@ -22437,7 +22402,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1375532941}
---- !u!114 &1375532946
+--- !u!114 &1375532951
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -22445,75 +22410,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1375532941}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
+  m_Script: {fileID: 11500000, guid: ece8667ca22fd194aa91389c30c2c652, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  QuizPanel: {fileID: 871130397}
-  HauptPanel: {fileID: 871130397}
-  isEntered: 0
-  _selectable: {fileID: 1375532943}
-  GazeActivationTime: 3
---- !u!114 &1375532947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1375532941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  QuizPanel: {fileID: 871130397}
-  HauptPanel: {fileID: 120027092}
-  isEntered: 0
-  _selectable: {fileID: 1375532943}
-  GazeActivationTime: 3
---- !u!114 &1375532948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1375532941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  QuizPanel: {fileID: 871130397}
-  HauptPanel: {fileID: 1538749346}
-  isEntered: 0
-  _selectable: {fileID: 1375532943}
-  GazeActivationTime: 3
---- !u!114 &1375532949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1375532941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  QuizPanel: {fileID: 871130397}
-  HauptPanel: {fileID: 1865535309}
-  isEntered: 0
-  _selectable: {fileID: 1375532943}
-  GazeActivationTime: 3
---- !u!114 &1375532950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1375532941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  QuizPanel: {fileID: 871130397}
-  HauptPanel: {fileID: 38844507}
+  MainPanel: {fileID: 871130397}
+  Weg1: {fileID: 38844507}
+  Weg2: {fileID: 1538749346}
+  Weg3: {fileID: 120027092}
+  Weg4: {fileID: 1865535309}
   isEntered: 0
   _selectable: {fileID: 1375532943}
   GazeActivationTime: 3

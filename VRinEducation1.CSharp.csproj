@@ -159,6 +159,7 @@
     <Compile Include="Assets\Question.cs" />
     <Compile Include="Assets\Script\MaschinenbauPanelSwitch.cs" />
     <Compile Include="Assets\Script\PanelSwitch.cs" />
+    <Compile Include="Assets\Script\PanelSwitch1.cs" />
     <Compile Include="Assets\Script\PlayAudioOnce.cs" />
     <Compile Include="Assets\Script\PlayMusicAndStopMusic.cs" />
     <Compile Include="Assets\Script\QuestionSwitch.cs" />
