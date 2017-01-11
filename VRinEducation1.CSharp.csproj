@@ -157,7 +157,9 @@
     <Compile Include="Assets\MaterialUI\Scripts\ToggleConfig.cs" />
     <Compile Include="Assets\MaterialUI\Scripts\ToggleTextChanger.cs" />
     <Compile Include="Assets\Question.cs" />
+    <Compile Include="Assets\Script\BeschleunigerPanels.cs" />
     <Compile Include="Assets\Script\MaschinenbauPanelSwitch.cs" />
+    <Compile Include="Assets\Script\ObjectColliderScript.cs" />
     <Compile Include="Assets\Script\PanelSwitch.cs" />
     <Compile Include="Assets\Script\PanelSwitch1.cs" />
     <Compile Include="Assets\Script\PlayAudioOnce.cs" />
