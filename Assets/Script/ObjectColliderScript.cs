@@ -6,7 +6,7 @@ public class ObjectColliderScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        //enstehendesObjekt.SetActive(false);
+        enstehendesObjekt.SetActive(false);
 	
 	}
     void OnCollisionEnter(Collision col)
@@ -16,6 +16,8 @@ public class ObjectColliderScript : MonoBehaviour {
         {
             Destroy(col.gameObject);
             Destroy(gameObject);
+            enstehendesObjekt.SetActive(true);
+
         }
         //Destroy (col.gameObject);
 
