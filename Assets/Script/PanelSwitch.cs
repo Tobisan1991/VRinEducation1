@@ -9,11 +9,18 @@ using System.Collections.Generic;
 
 public class PanelSwitch : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
+    private int scoreRichtige = 0;
+    private int scoreFalsche = 0;
+    private int score = 0;
+    private string scoreText;
+    public int richtige = 0;
+    public int falsche = 0;
     public GameObject QuizPanel;
     public GameObject HauptPanel;
     public bool isEntered = false;
     public Selectable _selectable;
     public float GazeActivationTime = 3;
+    sendText text1 = new sendText();
 
     BaseInputModule input;
 
@@ -22,14 +29,18 @@ public class PanelSwitch : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     void Start()
     {
+
+        
         input = FindObjectOfType<BaseInputModule>();
         _selectable = GetComponent<Selectable>();
         HauptPanel.SetActive(true);
         QuizPanel.SetActive(false);
+
     }
 
     void Update()
     {
+        
         if (!_selectable.IsInteractable())
         {
             ReticlePointer.Instance.SetFillAmount(0);
@@ -57,6 +68,24 @@ public class PanelSwitch : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         }
     }
 
+    public class sendText
+    {
+        private string scoreText2;
+
+        public  string Name
+        {
+            get
+            {
+                return scoreText2;
+            }
+            set
+            {
+                scoreText2 = value;
+            }
+        }
+
+    }
+
     void OnDisable()
     {
         isEntered = false;
@@ -78,10 +107,18 @@ public class PanelSwitch : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     void SetEnteredTrue()
     {
+        scoreRichtige += richtige;
+        scoreFalsche += falsche;
+        score = scoreFalsche + scoreRichtige;
+        scoreText = "Insg.: " + score + ", " + scoreRichtige + " Richtige, " + scoreFalsche + " Falsche";
+        text1.Name = scoreText;
         HauptPanel.SetActive(false);
         QuizPanel.SetActive(true);
     }
 
+
+
+   
 
     #endregion
 

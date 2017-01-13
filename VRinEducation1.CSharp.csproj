@@ -158,6 +158,7 @@
     <Compile Include="Assets\MaterialUI\Scripts\ToggleTextChanger.cs" />
     <Compile Include="Assets\Question.cs" />
     <Compile Include="Assets\Script\BeschleunigerPanels.cs" />
+    <Compile Include="Assets\Script\CounterQuiz.cs" />
     <Compile Include="Assets\Script\MaschinenbauPanelSwitch.cs" />
     <Compile Include="Assets\Script\ObjectColliderScript.cs" />
     <Compile Include="Assets\Script\PanelSwitch.cs" />
@@ -167,6 +168,7 @@
     <Compile Include="Assets\Script\QuestionSwitch.cs" />
     <Compile Include="Assets\Script\ReticlePointer.cs" />
     <Compile Include="Assets\Script\RotateScript.cs" />
+    <Compile Include="Assets\Script\ScoreManager.cs" />
     <Compile Include="Assets\Script\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\Script\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\Script\Scripts\ChangeColor.cs" />
@@ -184,6 +186,7 @@
     <Compile Include="Assets\Script\VRSlider.cs" />
     <Compile Include="Assets\Script\VRTextScript.cs" />
     <Compile Include="Assets\Script\VRTextScript1.cs" />
+    <Compile Include="Assets\Script\getScoreText.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />

@@ -361,6 +361,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1110008961}
   HauptPanel: {fileID: 1706134294}
   isEntered: 0
@@ -552,6 +554,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1726802548}
   HauptPanel: {fileID: 1190422159}
   isEntered: 0
@@ -920,6 +924,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1110008961}
   HauptPanel: {fileID: 1254579106}
   isEntered: 0
@@ -1290,6 +1296,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 373263166}
   HauptPanel: {fileID: 305768467}
   isEntered: 0
@@ -1741,6 +1749,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 140552504}
   HauptPanel: {fileID: 1190422159}
   isEntered: 0
@@ -1985,6 +1995,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 423515164}
   HauptPanel: {fileID: 1052403335}
   isEntered: 0
@@ -2266,10 +2278,10 @@ RectTransform:
   - {fileID: 508416690}
   m_Father: {fileID: 1110008962}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 375.6438, y: -149.81477}
+  m_SizeDelta: {x: 571.2876, y: 41.712185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &207620981
 MonoBehaviour:
@@ -2409,6 +2421,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 199644634}
   HauptPanel: {fileID: 1525332988}
   isEntered: 0
@@ -2615,6 +2629,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1525332988}
   HauptPanel: {fileID: 1917852472}
   isEntered: 0
@@ -2965,6 +2981,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1110008961}
   HauptPanel: {fileID: 423515164}
   isEntered: 0
@@ -3354,6 +3372,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1110008961}
   HauptPanel: {fileID: 140552504}
   isEntered: 0
@@ -3993,6 +4013,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 1
   QuizPanel: {fileID: 1110008961}
   HauptPanel: {fileID: 1526540385}
   isEntered: 0
@@ -4195,6 +4217,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1511034447}
   HauptPanel: {fileID: 122769958}
   isEntered: 0
@@ -4842,6 +4866,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1110008961}
   HauptPanel: {fileID: 1190422159}
   isEntered: 0
@@ -5864,6 +5890,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1110008961}
   HauptPanel: {fileID: 1726802548}
   isEntered: 0
@@ -5992,6 +6020,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1110008961}
   HauptPanel: {fileID: 1917852472}
   isEntered: 0
@@ -6268,6 +6298,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 1
   QuizPanel: {fileID: 122769958}
   HauptPanel: {fileID: 1772097368}
   isEntered: 0
@@ -6396,6 +6428,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 199644634}
   HauptPanel: {fileID: 1917852472}
   isEntered: 0
@@ -6822,6 +6856,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1638249974}
   HauptPanel: {fileID: 423515164}
   isEntered: 0
@@ -6950,6 +6986,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 65744617}
   HauptPanel: {fileID: 1917852472}
   isEntered: 0
@@ -7152,6 +7190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1190422159}
   HauptPanel: {fileID: 1299610293}
   isEntered: 0
@@ -7410,10 +7450,10 @@ RectTransform:
   - {fileID: 1447962445}
   m_Father: {fileID: 1110008962}
   m_RootOrder: 6
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 375.6438, y: -316.6635}
+  m_SizeDelta: {x: 571.2876, y: 41.712185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &888578366
 MonoBehaviour:
@@ -7497,6 +7537,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1110008961}
   HauptPanel: {fileID: 106045824}
   isEntered: 0
@@ -7699,6 +7741,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1110008961}
   HauptPanel: {fileID: 1640224720}
   isEntered: 0
@@ -7811,10 +7855,10 @@ RectTransform:
   - {fileID: 102299171}
   m_Father: {fileID: 1110008962}
   m_RootOrder: 5
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 375.6438, y: -274.95132}
+  m_SizeDelta: {x: 571.2876, y: 41.712185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &915703168
 MonoBehaviour:
@@ -7901,6 +7945,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1141511657}
   HauptPanel: {fileID: 1110008961}
   isEntered: 0
@@ -8878,6 +8924,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 0}
   HauptPanel: {fileID: 0}
   isEntered: 0
@@ -8975,7 +9023,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1037444963
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8989,6 +9037,7 @@ RectTransform:
   m_Children:
   - {fileID: 2004623151}
   - {fileID: 1148291554}
+  - {fileID: 1621785312}
   - {fileID: 2084539089}
   m_Father: {fileID: 1305845274}
   m_RootOrder: 9
@@ -9099,6 +9148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1640224720}
   HauptPanel: {fileID: 1055395275}
   isEntered: 0
@@ -9227,6 +9278,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1299610293}
   HauptPanel: {fileID: 199644634}
   isEntered: 0
@@ -9613,6 +9666,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1254579106}
   HauptPanel: {fileID: 1640224720}
   isEntered: 0
@@ -9889,6 +9944,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1599850538}
   HauptPanel: {fileID: 122769958}
   isEntered: 0
@@ -10059,7 +10116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1110008962
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10337,10 +10394,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1037444963}
   m_RootOrder: 1
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 375.5, y: -195}
-  m_SizeDelta: {x: 571, y: 110}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1148291555
 MonoBehaviour:
@@ -10430,6 +10487,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 122769958}
   HauptPanel: {fileID: 305768467}
   isEntered: 0
@@ -10854,6 +10913,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 106045824}
   HauptPanel: {fileID: 122769958}
   isEntered: 0
@@ -11834,6 +11895,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1190422159}
   HauptPanel: {fileID: 199644634}
   isEntered: 0
@@ -12090,6 +12153,7 @@ GameObject:
   - 223: {fileID: 1305845277}
   - 114: {fileID: 1305845276}
   - 114: {fileID: 1305845275}
+  - 222: {fileID: 1305845278}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -12137,6 +12201,7 @@ RectTransform:
   - {fileID: 988947671}
   - {fileID: 1726802549}
   - {fileID: 140552505}
+  - {fileID: 1685050876}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
@@ -12200,6 +12265,12 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!222 &1305845278
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1305845273}
 --- !u!1 &1307328358
 GameObject:
   m_ObjectHideFlags: 0
@@ -12471,6 +12542,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1640224720}
   HauptPanel: {fileID: 423515164}
   isEntered: 0
@@ -12821,6 +12894,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1037444962}
   HauptPanel: {fileID: 106045824}
   isEntered: 0
@@ -13023,6 +13098,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1706134294}
   HauptPanel: {fileID: 1141511657}
   isEntered: 0
@@ -13299,6 +13376,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 423515164}
   HauptPanel: {fileID: 1706134294}
   isEntered: 0
@@ -13426,6 +13505,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 0}
   HauptPanel: {fileID: 0}
   isEntered: 0
@@ -13499,7 +13580,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Naechste Frage
+  m_Text: Beenden
 --- !u!222 &1435758186
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13539,10 +13620,10 @@ RectTransform:
   - {fileID: 1250972588}
   m_Father: {fileID: 1110008962}
   m_RootOrder: 1
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 375.6438, y: -108.10259}
+  m_SizeDelta: {x: 571.2876, y: 41.712185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1445180656
 MonoBehaviour:
@@ -13830,6 +13911,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1640224720}
   HauptPanel: {fileID: 1638249974}
   isEntered: 0
@@ -14308,6 +14391,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1055395275}
   HauptPanel: {fileID: 423515164}
   isEntered: 0
@@ -14417,10 +14502,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1110008962}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 375.6438, y: -76.123245}
+  m_SizeDelta: {x: 571.2876, y: 22.246498}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1560791944
 MonoBehaviour:
@@ -14784,6 +14869,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1110008961}
   HauptPanel: {fileID: 305768467}
   isEntered: 0
@@ -15004,6 +15091,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1052403335}
   HauptPanel: {fileID: 1706134294}
   isEntered: 0
@@ -15116,10 +15205,10 @@ RectTransform:
   - {fileID: 3741412}
   m_Father: {fileID: 1110008962}
   m_RootOrder: 3
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 375.6438, y: -191.52696}
+  m_SizeDelta: {x: 571.2876, y: 41.712185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1604683395
 MonoBehaviour:
@@ -15238,10 +15327,10 @@ RectTransform:
   - {fileID: 557312201}
   m_Father: {fileID: 1110008962}
   m_RootOrder: 4
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 375.6438, y: -233.23915}
+  m_SizeDelta: {x: 571.2876, y: 41.712185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1610142799
 MonoBehaviour:
@@ -17157,6 +17246,80 @@ ParticleSystem:
     subEmitterCollision1: {fileID: 0}
     subEmitterDeath: {fileID: 0}
     subEmitterDeath1: {fileID: 0}
+--- !u!1 &1621785311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1621785312}
+  - 222: {fileID: 1621785314}
+  - 114: {fileID: 1621785313}
+  m_Layer: 0
+  m_Name: ScoreText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1621785312
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1621785311}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1.0000001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1037444963}
+  m_RootOrder: 2
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1621785313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1621785311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 7cb2912222469634ba17a77055919ea8, type: 3}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 48
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: 'Score: X Richtige, X Falsche'
+--- !u!222 &1621785314
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1621785311}
 --- !u!1 &1629750964
 GameObject:
   m_ObjectHideFlags: 0
@@ -17280,6 +17443,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 1
   QuizPanel: {fileID: 948018776}
   HauptPanel: {fileID: 1640224720}
   isEntered: 0
@@ -17742,6 +17907,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 988947670}
   HauptPanel: {fileID: 199644634}
   isEntered: 0
@@ -17965,6 +18132,80 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1679276453}
+--- !u!1 &1685050875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 1685050876}
+  - 222: {fileID: 1685050878}
+  - 114: {fileID: 1685050877}
+  m_Layer: 0
+  m_Name: Score
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1685050876
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1685050875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1305845274}
+  m_RootOrder: 29
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -460, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1685050877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1685050875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &1685050878
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1685050875}
 --- !u!1 &1686131460
 GameObject:
   m_ObjectHideFlags: 0
@@ -18331,6 +18572,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1772097368}
   HauptPanel: {fileID: 305768467}
   isEntered: 0
@@ -18699,6 +18942,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 327925636}
   HauptPanel: {fileID: 1706134294}
   isEntered: 0
@@ -18901,6 +19146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 1
+  falsche: 0
   QuizPanel: {fileID: 106045824}
   HauptPanel: {fileID: 1511034447}
   isEntered: 0
@@ -19121,6 +19368,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1110008961}
   HauptPanel: {fileID: 199644634}
   isEntered: 0
@@ -19249,6 +19498,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1917852472}
   HauptPanel: {fileID: 1141511657}
   isEntered: 0
@@ -19451,6 +19702,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 305768467}
   HauptPanel: {fileID: 1141511657}
   isEntered: 0
@@ -19653,6 +19906,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1190422159}
   HauptPanel: {fileID: 988947670}
   isEntered: 0
@@ -19781,6 +20036,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1110008961}
   HauptPanel: {fileID: 1141511657}
   isEntered: 0
@@ -19983,6 +20240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 199644634}
   HauptPanel: {fileID: 65744617}
   isEntered: 0
@@ -20483,10 +20742,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1037444963}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 375.5, y: -102.5}
-  m_SizeDelta: {x: 571, y: 75}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2004623152
 MonoBehaviour:
@@ -20576,6 +20835,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 423515164}
   HauptPanel: {fileID: 327925636}
   isEntered: 0
@@ -20873,6 +21134,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 1
+  falsche: 0
   QuizPanel: {fileID: 122769958}
   HauptPanel: {fileID: 373263166}
   isEntered: 0
@@ -21001,6 +21264,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1110008961}
   HauptPanel: {fileID: 948018776}
   isEntered: 0
@@ -21129,6 +21394,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 0
   QuizPanel: {fileID: 1526540385}
   HauptPanel: {fileID: 106045824}
   isEntered: 0
@@ -21240,11 +21507,11 @@ RectTransform:
   m_Children:
   - {fileID: 1435758182}
   m_Father: {fileID: 1037444963}
-  m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 375.5, y: -293.5}
-  m_SizeDelta: {x: 571, y: 87}
+  m_RootOrder: 3
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2084539090
 MonoBehaviour:
@@ -21257,6 +21524,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 1
+  falsche: 0
   QuizPanel: {fileID: 1110008961}
   HauptPanel: {fileID: 1037444962}
   isEntered: 0
@@ -21459,6 +21728,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59e628a6ff92b2a46a70c10761072cae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  richtige: 0
+  falsche: 1
   QuizPanel: {fileID: 106045824}
   HauptPanel: {fileID: 1599850538}
   isEntered: 0
