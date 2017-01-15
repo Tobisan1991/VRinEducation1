@@ -19,6 +19,13 @@ public class RichtigZaehlerAnatomie : MonoBehaviour
         {
             number = number + 1;
             print("Number of Activated Panels= " + number);
+            
         }
     }
+
+    /*
+    public void setZero()
+    {
+        number = 0;
+    }*/
 }

@@ -12,7 +12,12 @@ public class AnatomieGetScoreText : MonoBehaviour
     {
         ausgabeText = ("Score: " + RichtigZaehlerAnatomie.number + "/3");
         TextInButton.text = ausgabeText;
-	}
+        if (RichtigZaehlerAnatomie.number > 0){
+            RichtigZaehlerAnatomie.number = 0;
+        }
+
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
