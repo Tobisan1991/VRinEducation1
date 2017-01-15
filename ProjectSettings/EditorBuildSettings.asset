@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/Szenen/MaschinenbauSzene.unity
   - enabled: 1
     path: Assets/Szenen/szene1.unity
+  - enabled: 1
+    path: Assets/Szenen/Teilchenbeschleuniger.unity
