@@ -192,6 +192,7 @@
     <Compile Include="Assets\Script\VRSlider.cs" />
     <Compile Include="Assets\Script\VRTextScript.cs" />
     <Compile Include="Assets\Script\VRTextScript1.cs" />
+    <Compile Include="Assets\Szenen\MoviePlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
