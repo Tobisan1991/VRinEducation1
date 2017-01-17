@@ -15,3 +15,5 @@ EditorBuildSettings:
     path: Assets/Szenen/szene1.unity
   - enabled: 1
     path: Assets/Szenen/Teilchenbeschleuniger.unity
+  - enabled: 1
+    path: Assets/Szenen/TutorialSzene.unity
