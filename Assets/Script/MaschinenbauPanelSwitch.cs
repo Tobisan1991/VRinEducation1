@@ -9,7 +9,8 @@ using System.Collections.Generic;
 
 public class MaschinenbauPanelSwitch : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
-    public GameObject AktiverPanel;
+    //Objekte für die Maschinenbau Szene - Game Objekte um Panels zu Aktivieren
+	public GameObject AktiverPanel;
     public GameObject dummyPanel1;
     public GameObject dummyPanel2;
     public bool isEntered = false;
@@ -23,6 +24,7 @@ public class MaschinenbauPanelSwitch : MonoBehaviour, IPointerEnterHandler, IPoi
 
     void Start()
     {
+		//Panels werden defautlt auf false gesetzt, damit diese nicht angezeigt werden
         input = FindObjectOfType<BaseInputModule>();
         _selectable = GetComponent<Selectable>();
         dummyPanel1.SetActive(false);
@@ -32,6 +34,7 @@ public class MaschinenbauPanelSwitch : MonoBehaviour, IPointerEnterHandler, IPoi
 
     void Update()
     {
+		//wenn nicht selectable 
         if (!_selectable.IsInteractable())
         {
             ReticlePointer.Instance.SetFillAmount(0);
@@ -80,7 +83,8 @@ public class MaschinenbauPanelSwitch : MonoBehaviour, IPointerEnterHandler, IPoi
 
     void SetEnteredTrue()
     {
-        dummyPanel1.SetActive(false);
+		//Panels auf false gesetzt, somit nicht angezeigt
+		dummyPanel1.SetActive(false);
         dummyPanel2.SetActive(false);
         AktiverPanel.SetActive(true);
     }
