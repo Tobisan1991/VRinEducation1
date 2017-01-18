@@ -9,6 +9,7 @@ public class ArchitekturGetScoreText : MonoBehaviour{
     // Use this for initialization
     void Start()
     {
+		//Ausgabe Score des Quiz nach 3 Fragen
         ausgabeText = ("Score: " + RichtigZaehlerArchitektur.number + "/3");
         TextInButton.text = ausgabeText;
     }

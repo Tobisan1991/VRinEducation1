@@ -9,7 +9,8 @@ using System.Collections.Generic;
 
 public class BeschleunigerPanels : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
-    public GameObject atom1;
+    //Variablen atom als Game Object die durch den Raum bewegen
+	public GameObject atom1;
     public GameObject atom2;
  
     public bool isEntered = false;
@@ -23,6 +24,7 @@ public class BeschleunigerPanels : MonoBehaviour, IPointerEnterHandler, IPointer
 
     void Start()
     {
+		//Anfang sollen Atome nicht angezeigt werden, Acitve = false, da erst nach start gedrückt wurde
         input = FindObjectOfType<BaseInputModule>();
         _selectable = GetComponent<Selectable>();
         atom1.SetActive(false);
@@ -32,11 +34,13 @@ public class BeschleunigerPanels : MonoBehaviour, IPointerEnterHandler, IPointer
 
     void Update()
     {
+		
         if (!_selectable.IsInteractable())
         {
             ReticlePointer.Instance.SetFillAmount(0);
             return;
         }
+		//Wenn Funktion Entered wurde soll ein timeElapse gestartet werden, der auf 0 gesetzt wird
         if (isEntered)
         {
             timeElapsed += Time.deltaTime;
@@ -74,10 +78,11 @@ public class BeschleunigerPanels : MonoBehaviour, IPointerEnterHandler, IPointer
     {
         if (_selectable.IsInteractable())
         {
-            Invoke("SetEnteredTrue", 2f); // start timer after 0.3 seconds of gaze. You can call SetEnteredTrue() directly.
+            Invoke("SetEnteredTrue", 2f); // start Zeit ist 0,3 Sekunden nach beginn
         }
     }
 
+	//True setzten der Atom Objekte um diese sichtbar zu machen
     void SetEnteredTrue()
     {
         atom1.SetActive(true);
@@ -89,6 +94,7 @@ public class BeschleunigerPanels : MonoBehaviour, IPointerEnterHandler, IPointer
 
     #region IPointerExitHandler implementation
 
+	//Sollte sich der Benutzer auf dem Start Button entfernen
     public void OnPointerExit(PointerEventData eventData)
     {
         if (!_selectable.IsInteractable())
@@ -100,6 +106,7 @@ public class BeschleunigerPanels : MonoBehaviour, IPointerEnterHandler, IPointer
         }
         catch (System.Exception ex)
         {
+			//Fehlermeldung auffangen bei Fehlverhalten
             Debug.LogError(ex.Message);
         }
     }
@@ -107,6 +114,7 @@ public class BeschleunigerPanels : MonoBehaviour, IPointerEnterHandler, IPointer
 
     #region IPointerClickHandler implementation
 
+	//Bei Klick soll ein Event "PonterEventData" ausgeführt werden
     public void OnPointerClick(PointerEventData eventData)
     {
         isEntered = false;
