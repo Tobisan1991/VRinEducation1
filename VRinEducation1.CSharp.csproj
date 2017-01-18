@@ -72,6 +72,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EasyMovieTexture\Scripts\MedaiPlayerSampleGUI.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\MedaiPlayerSampleSphereGUI.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\MediaPlayerCtrl.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\MediaPlayerFullScreenCtrl.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\SphereMirror.cs" />
+    <Compile Include="Assets\EasyMovieTexture\Scripts\VideoCopyTexture.cs" />
     <Compile Include="Assets\GoogleVR\Legacy\Scripts\GvrHead.cs" />
     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrCameraUtils.cs" />
     <Compile Include="Assets\GoogleVR\Legacy\Scripts\Internal\GvrEye.cs" />
@@ -192,9 +198,12 @@
     <Compile Include="Assets\Script\VRSlider.cs" />
     <Compile Include="Assets\Script\VRTextScript.cs" />
     <Compile Include="Assets\Script\VRTextScript1.cs" />
-    <Compile Include="Assets\Szenen\MoviePlayer.cs" />
+    <Compile Include="Assets\playthisshit.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\EasyMovieTexture\Chromakey.shader" />
+    <None Include="Assets\EasyMovieTexture\Unlit_SphereInside.shader" />
+    <None Include="Assets\EasyMovieTexture\readme.txt" />
     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
     <None Include="Assets\GoogleVR\Legacy\Resources\SolidColor.shader" />
