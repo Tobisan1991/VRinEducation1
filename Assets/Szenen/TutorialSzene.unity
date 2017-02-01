@@ -329,7 +329,7 @@ Prefab:
       objectReference: {fileID: 1586797058}
     - target: {fileID: 11400000, guid: f0082db35c5d5614f9e8c63a7f86aa4e, type: 2}
       propertyPath: m_strFileName
-      value: file:///storage/extSdCard/Intro_Tutorial_Trailer.mp4
+      value: file:///storage/86A8-5933/Intro_Tutorial_Trailer.mp4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f0082db35c5d5614f9e8c63a7f86aa4e, type: 2}
       propertyPath: m_LocalScale.x

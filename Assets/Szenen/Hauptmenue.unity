@@ -21028,7 +21028,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Diese Anwednung funtioniert mit \neinem Time Gazer- schwarzer Punkt.\nUm
+  m_Text: "Diese Anwednung funktioniert mit \neinem Time Gazer- schwarzer Punkt.\nUm
     ins Hauptmenue zu gelangen, schauen\n Sie 3 Sekunden auf den Button vor Ihnen!"
 --- !u!222 &1898740261
 CanvasRenderer:
